@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+	font-family: 'Jura', sans-serif;
+}
+header{
+	background-color: #111;
+	color: #fff;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1{
+	float: left;
+    display: inline;
+    font-size: 32px;	
+    margin-top: 0px;
+    margin-right: 10px;
+}
+ nav ul{
+ 	
+ 	display: inline;
+ 	padding:0;
+ 	float: left;
+
+
+ }
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	margin-left: 12px;
+	
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+ .homered{
+	background-color: red;
+	padding: 30px 10px 17px 10px;
+
+
+
+}
+ .homeblack{
+	background-color: black;
+
+
+	
+}
+
+.homeblack:hover{
+	opacity: 0.6;
+
+}
+
+.divider{
+	background-color: red;
+	height: 5px;
+
+}
+.image1{
+	margin-top: 46px;
+}
+.image2{
+	margin-top: 46px;
+}
+.image3{
+	margin-top: 46px;
+}
+.image4{
+	margin-top: 46px;
+}
+#image1{
+	background-image: url(back.jpg);
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+
+	
+	padding: 0;
+	background-repeat: no-repeat;
+
+}
+#prathampicss{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	margin-top: -295px;
+	margin-left: 80px;
+
+	margin-bottom: 200px;
+}
+.box{
+	padding-top: 40px;
+}
+
+.homesub{
+    margin: 0;
+    color: red;
+	margin-right: 60px;
+	padding: 9% 5% 0% 55%;
+	font-size: 30px;
+
+}
+
+.homedes{
+	background-color: rgba(0,0,0,0.4);
+	display: inline-block;
+	margin: 0.5% 0% 0% 55%;
+	color: white;
+	font-size: 55px;
+}
+.homedess{
+	margin: 0 0 0 55%;
+	font-size: 55px;
+	color: black;
+	display: inline-block;
+}
+/* button animation */
+.btn{
+	width: 160px;
+	height: 50px;
+	background-color: #9b41f4;
+	position: absolute;
+	top: 57%;
+	left: 67%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+	color: white;
+
+}
+.btn:before{
+	content:"PORTFOLIO";
+	font-weight: 600;
+	font-size: 25px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	transition: all 0.3s;
+
+
+}
+.btn:hover:before{
+	top: -20px;
+}
+.btn:after{
+	font-family: 'Ionicons';
+	content: '\f26a';
+	color: white;
+	transition: all 0.3s;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	font-size: 40px;
+	top: calc(100% + 20px);
+}
+.btn:hover:after{
+	top: 50%;
+	
+}
+
+/* portfolio */
+.logo2{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+
+}
+#head{
+	width: 100%;
+	height: 300px;
+	background-image: url(steel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 90%;
+	background-attachment: fixed;
+	
+}
+
+#portfolioh2{
+	font-size: 50px;
+     color: #fff;
+     text-align: center;
+     clear: both;
+     margin-top: -130px;
+     margin-right: 40px;
+}
+#container{
+	padding-left: 200px;
+}
+.portfolio{
+	width: 360px;
+	height: 250px;
+
+}
+.padding{
+	padding-left: 46px;
+}
+.image1{
+	margin-top: 46px;
+}
+.image2{
+	margin-top: 46px;
+}
+.image3{
+	margin-top: 46px;
+}
+.image4{
+	margin-top: 46px;
+}
+.logo{
+	width: 46px;
+	height: 46px;
+}
+/*testimonial section */
+
+p.name{
+	color: #cccccc;
+	font-size: 20px;
+	
+}
+
+ /* footer */
+
+ footer{
+ 	width: 100%;
+ 	height: 500px;
+ 	background-color: #183951;
+ 	margin-top: 47px;
+ }
+ #foot{
+ 	
+ 	width: 100%;
+ 	margin:0 50px;
+ }
+
+ div.social{
+ 	float: left;
+ 	margin-top: 20px;
+ }
+a.social{
+	margin-right: 15px;
+}
+h3{
+	color: #ffffff;
+}
+div.contact{
+	float: right;
+	margin-right: 375px;
+	margin-top: 20px;
+}
+label{
+	color: #ffffff;
+}
+
+
+input.text{
+	height: 30px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+
+}
+
+
+textarea.message{
+	height: 100px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+
+}
+
+
+input.submit{
+	width: 60px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 3px;
+
+}
+input.submit:hover{
+	width: 60px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	opacity: 0.8;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
